@@ -29,9 +29,9 @@
             </div>
           </div>
       </mat-card-content>
-      <button mat-button (click)="onCancel()" style="margin-right: 1%;">Cancel</button>
-      <button mat-button *ngIf="router == '/create'" (click)="onAdd()" color="accent">Add</button>
-      <button mat-button *ngIf="router != '/create'" (click)="onUpdate()" color="accent">Update</button>
+      <button mat-raised-button (click)="onCancel()" style="margin-right: 1%;">Cancel</button>
+      <button mat-raised-button *ngIf="router == '/create'" (click)="onAdd()" color="primary">Add</button>
+      <button mat-raised-button *ngIf="router != '/create'" (click)="onUpdate()" color="primary">Update</button>
     </form>
   </mat-card>
 </div>
