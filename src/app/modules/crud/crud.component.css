@@ -22,4 +22,8 @@
   .mat-header-cell {
     color: white;
   }
+
+  .mat-table td:hover {
+    background-color: #acaaaa;
+  }
   

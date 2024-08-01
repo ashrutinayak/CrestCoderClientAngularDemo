@@ -82,7 +82,7 @@ export class CrudServiceService {
   // // For call delete folder api
   deleteFolder(path: string): Observable<any> {
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-    return this.http.delete<any>(this.apiUrl,{ headers, body: { path , isDirectory: false }}).pipe(
+    return this.http.delete<any>(this.apiUrl,{ headers, body: { path , isDirectory: true }}).pipe(
       map((data) => {
         if (data) {
           return data;
