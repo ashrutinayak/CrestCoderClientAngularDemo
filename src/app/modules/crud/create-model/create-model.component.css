@@ -1,0 +1,37 @@
+.folder-wrapper {
+  height: 100%;
+}
+.positronx {
+  text-decoration: none;
+  color: #ffffff;
+}
+.folder-wrapper .example-form {
+  min-width: 100%;
+  max-width: 300px;
+  width: 100%;
+}
+.folder-wrapper .example-full-width,
+.folder-wrapper .btn-block {
+  width: 100%;
+}
+.folder-wrapper mat-card-header {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-weight: 700;
+}
+.folder-wrapper mat-card-header mat-card-title {
+  font-size: 30px;
+  margin: 0;
+}
+.folder-wrapper .mat-card {
+  padding: 40px 70px 50px;
+}
+.folder-wrapper .mat-stroked-button {
+  border: 1px solid currentColor;
+  line-height: 54px;
+  background: #FFF7FA;
+}
+.folder-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
+  padding: 0.8375em 0;
+}
