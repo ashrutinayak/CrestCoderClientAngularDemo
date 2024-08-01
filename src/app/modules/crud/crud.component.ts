@@ -64,7 +64,7 @@ export class CrudComponent implements OnInit {
   // Delete Folder
   delete(name: string) {
     const dialogRef = this.dialog.open(ConfirmationDialogComponent, {
-      height: '22%',
+      height: '30%',
       width: '35%',
       data: { message: 'Are you sure you want to delete this item?' }
     });
